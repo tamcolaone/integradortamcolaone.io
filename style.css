@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+* {
+    padding: 0%;
+    margin:0%;   
+    list-style: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(136, 45, 96);
+    padding: 0.2rem 2rem;
+    align-items: center;
+}
+
+.show>a{
+    color: white;
+}
+
+header>nav>ul {
+    display: flex;
+    list-style-type: none;
+    color:white;
+    gap: 15px;
+}
+header>nav>ul>li>a {
+    color:rgb(138, 189, 95);
+    text-decoration: none;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+    font-family:  'Roboto Condensed', sans-serif; 
+    font-size: larger;
+}
+            
+header>nav>ul> :last-child a {
+    color:rgb(190, 229, 153);
+}
+
+header>nav>ul>li>a:hover{
+    color: rgb(190, 95, 124)
+}
+
+
+.bannerprincipal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    background: url("https://www.sanganxa.com/themes/sanganxa/assets/img/modules/appagebuilder/images/xbanner-saxo.jpg.pagespeed.ic.tnFb9tLuAB.jpg"), rgba(0 0 0 / 36%);
+    height: 50vh;
+    background-position: right;
+    color: white;
+    font-family: 'Vollkorn', serif;
+    padding: 7%;
+    text-align: initial;
+    justify-content:flex-start;
+    font-size: larger;
+    background-blend-mode: luminosity;
+    text-decoration: none;
+  
+ }
+
+ 
+
+/* CARDS */
+
+
+.titleCards {
+    display: flex;
+    margin: 5px 0;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.titleCards div {
+    font-size: small;
+}
+.titleCards div:last-child {
+    margin-top: 3px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: x-large;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+    }
+
+.card {
+    width: 25%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.card .image {
+        height: 250px;
+        background-size: cover;
+        background-position-x: center;
+     
+}
+
+.imga {
+    background-image:url("https://cdn.pixabay.com/photo/2016/09/26/01/02/scores-1695041_960_720.jpg");
+
+}
+
+.imgb {
+    background-image:url("https://cdn.pixabay.com/photo/2016/08/04/18/55/music-1569816_960_720.jpg");
+
+}
+
+.imgc {
+    background-image:url("https://media.istockphoto.com/photos/piano-and-flute-with-golden-shine-and-sheet-music-top-picture-id623439058?k=20&m=623439058&s=612x612&w=0&h=cWf7A1lyhtw00zg9IcJgCehRWYiTF6gQzyu-GHln9kY=");
+
+}
+
+.subtitles {
+    display: flex;
+    gap: 8px;
+}
+
+.subtitleA{
+    background-color: rgb(214, 143, 175);
+    font-size: small;
+    font-weight: 900;
+    color: black;
+    padding: 1px 6px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.subtitleB{
+    background-color: rgb(155, 195, 98);
+    font-size: small;
+    font-weight: 900;
+    color: white ;
+    padding: 1px 6px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.texts{
+    margin: 0 15px;
+}
+
+.titles{
+    margin: 15px 0;
+
+}
+
+.title {
+    font-weight: bold;
+}
+
+.parrafo {
+    font-size: small;
+}
+
+/*publicidad*/
+
+.pub {
+    margin: 25px 0;
+    display: flex;
+    height: 50vh;
+    gap: 2px;
+    color: white;
+}
+
+.pub .image {
+    background-image: url("https://cdn.pixabay.com/photo/2016/09/10/11/11/jazz-1658886__340.jpg");
+    height: 100%;
+    width: 150%;
+    background-size: cover;
+
+}
+
+.pub .text {
+    background-color:rgb(145, 164, 55);
+    padding: 15px;
+
+}
+
+.pub .text div:first-child{
+    font-weight: bold;
+    margin-bottom:15px ;
+}
+
+.pub .text .button {
+    margin: 15px 0px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/*formulario*/
+.Anotate>p {
+    display: flex;
+    justify-content: center;
+    color: black;
+    gap: 4px;
+    
+}
+.nuestras   {
+    text-transform: none;
+    color: black;
+}
+
+
+ .row {
+    padding: 4px;
+    width: 100%;
+    margin-top: auto;
+}
+
+
+ .formulario {
+    display:grid;
+   justify-content: center;
+font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(0 0 0 / 36%);
+    
+}
+footer>ul {
+    
+    background-color: rgb(55, 0, 55);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+   margin: 15px;
+    
+}
+
+ footer>ul a{
+    text-decoration: none;
+    color: white;
+    
+
+ }
